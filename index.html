@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Integration_Re-Ndama</title>
+		<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+		<script src="tailwindcss.js"></script>
+	</head>
+	<body>
+		<!--\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\navbar///////////////////////////////////-->
+		<!------------------------------------------navbar_vu_sur_desktop -------------------------------->
+		<div class="  bg-white h-full w-full flex justify-between items-center px-14 py-5 sticky top-0 z-10">
+			<di class=" h-full w-1/6 flex hidden lg:flex ">
+				<img src="./images/logo_rendama.png"  class=" h-28"> 
+			</di>
+			<div class=" text-xl h-full w-1/2 flex justify-between hidden lg:flex"> 
+				<ul class="flex justify-between ">
+  					<li ><a href="#" class="mr-10 text-black  hover:text-red-500 font-normal "><b>Accueil</b></a></li>
+					<li ><a href="#" class="mr-10 text-black  hover:text-red-500 font-normal"><b>A propos de nous</b></a></li>
+					<li ><a href="#" class="mr-10 text-black  hover:text-red-500 font-normal "><b>Chambres</b></a></li>
+					<li ><a href="#" class=" text-black  hover:text-red-500 font-normal"><b>Contact</b></a></li>
+				</ul>
+			</div>
+			<div class=" hidden lg:flex h-full w-1/6 flex text-xl ">
+			<button class=" hover:bg-white  hover:text-black  border border-current px-12 py-6  border-current bg-black text-white extrabold ">
+				<span>Enregistrer</span>
+			</button>
+			</div>
+		<!------------------------------------------navbar_vu_sur_tablette-------------------------------->
+			<div class=" lg:hidden  hidden md:flex  h-full w-1/6 ">
+				<img src="./images/logo_rendama.png"  class=" h-24"> 
+			</div>
+			<div class=" lg:hidden hidden md:flex h-full w-1/6 flex  justify-end">
+				<img src="./images/hamburger-menu-icon.png"  class=" h-12"> 
+			</div>
+		<!------------------------------------------navbar_vu_sur_tablette-------------------------------->
+			<div class=" h-full w-1/6 flex  lg:hidden md:hidden">
+				<img src="./images/logo_rendama.png"  class=" h-16"> 
+			</div>
+			<di class=" h-full w-1/6 flex  lg:hidden md:hidden justify-end">
+				<img src="./images/hamburger-menu-icon.png"  class=" h-8"> 
+			</div>
+		</div>
+		
+		<!--\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\contenu_n°1///////////////////////////////////-->
+		<!------------------------------------------contenu_n°1_vu_sur_tablette(md:++)_et_desktop(lg:+++) -------------------------------->
+		<div class="relative hidden md:flex lg:flex">
+			<div class=" grid col justify-between h-[380px] md:w-[500px] lg:w-[600px]  bg-white absolute z-5 pl-16 pt-2">
+				<h2 class="md:text-[56px] lg:text-[68px]  md:mb-7 lg:mb-10 font-serif md:leading-[68px] lg:leading-[65px]"><b>Détendez vous <br> Dans Notre<br> Complexe <br>luxueux</b></h2>
+				<div class=" w-full h-full text-xl">
+					<button class=" hover:bg-white  hover:text-black  border border-current px-10 py-5  border-current bg-black text-white extrabold ">
+						<span>Les chambres</span>
+					</button>
+				</div>
+			</div>
+			<div class=" flex justify-start items-end h-[600px] md:w-[800px] lg:w-[900px]  ml-auto bg-cover bg-center" style="background-image: url(./images/plage.png);">
+				<div class=" flex  h-[120px] w-[618px]  absolute bg-gray-200 bg-opacity-90  p-5 z-5 ">
+  					<div class=" flex  h-full w-[180px] p-2">
+						<img src="./images/calendrier.png"  class="  w-[40px] h-[40px] mr-2">
+						<p class="mt-1 text-xl"><b>Entré</b><br>Date</p>
+					</div>
+					<div class="flex h-full w-[190px]  p-2">
+						<img src="./images/ligne.png"  class="  w-[6px] h-[55px] mr-6">
+						<img src="./images/calendrier.png"  class="  w-[40px] h-[40px] mr-2">
+						<p class="mt-1 text-xl"><b>Sortie</b><br>Date</p>
+					</div>
+					<div class=" flex  h-full w-[180px]  p-2">
+						<img src="./images/ligne.png"  class="  w-[6px] h-[55px] mr-2">
+						<img src="./images/boul.png"  class="  w-[40px] h-[40px] mr-1">
+						<p class="mt-1 text-xl"><b>Entré</b><br>Ajoutez</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!------------------------------------------contenu_n°1_vu_sur_mobile-------------------------------->
+			<div class=" md:hidden lg:hidden p-10 flex justify-start items-end h-[500px] w-full  bg-cover bg-center" style="background-image: url(./images/plage.png);">
+				<div class="  grid col justify-between h-[370px] w-[370px]  absolute bg-white p-5 z-5 ">
+					<h2 class="text-[44px]   mb-[40px]  font-serif leading-[58px] "><b>Détendez vous <br> Dans Notre<br> Complexe <br>luxueux</b></h2>
+					<div class=" w-full h-full text-xl">
+						<button class=" hover:bg-white  hover:text-black  border border-current px-8 py-4  border-current bg-black text-white extrabold ">
+							<span>Les chambres</span>
+						</button>
+					</div>
+				</div>
+
+			</div>
+
+		<!--\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\contenu_n°2///////////////////////////////////-->
+		<!------------------------------------------contenu_n°2_vu_sur_desktop(lg:+++) -------------------------------->
+		<div class=" hidden md:hidden lg:grid grid lg:grid-cols-2  gap-10 h-full w-full bg-gray-100 p-24 mt-[160px] ">
+			<div class="h-[350px] w-full  bg-cover bg-center " style="background-image:url(./images/chambre_2.png);">
+				
+			</div>
+			<div class=" flex flex-col justify-start h-[350px] w-full font-serif ">
+				<div class=" text-[42px] font-serif"> 
+					<h2><b>Nos meilleures chambres</b></h2>
+				</div>
+				<div class=" font-serif mb-[50px]"> 
+					<p>Habituellement, le plus fort dans la pièce est le plus faible. <br> L’homme le plus silencieux de la pièce.</p>
+				</div>
+				<div class="flex w-full justify-start"> 
+					<div class=" h-[80px] w-[80px] border border-2 border-yellow-600 rounded-full mr-4 p-4 hover:bg-black"><img src="./images/tv.png"  class="w-[60px] h-[40px]"></div>
+					<div class=" h-[80px] w-[80px] border border-2 border-yellow-600 rounded-full mr-4 p-4 hover:bg-black"><img src="./images/split.png"  class="w-[60px] h-[50px]"></div>
+					<div class=" h-[80px] w-[80px] border border-2 border-yellow-600 rounded-full mr-4 p-4 hover:bg-black"><img src="./images/wifi.png"  class="w-[70px] h-[40px]"></div>
+					<div class=" h-[80px] w-[80px] border border-2 border-yellow-600 rounded-full p-4 hover:bg-black"><img src="./images/sport.png"  class="w-[70px] h-[50px]"></div>
+				</div>
+				<div class=" flex justify-between items-cent px-4  "> 
+					<div class="flex justify-start items-cent font-medium text-[14px] py-4"> 
+						<p class="mr-10"><b>LEDTV</b></p>
+						<p class="mr-10"><b>AC ROOM</b></p>
+						<p class="mr-10"><b>WIFI</b></p>
+						<p class="mr-4"><b>FITNESS</b></p>
+					</div>
+					<button class=" hover:bg-black  hover:text-white text-[14px] border border-2 border-current px-5 py-4  border-current text-black ">
+						<span><b>Voir les orffres</b></span>
+					</button>
+				</div>
+			</div>
+			<div class="flex flex-row justify-star gap-0 t items-end relative h-[350px] w-full  bg-cover bg-green-100 bg-center " style="background-image:url(./images/chambre_3.png);background-size: cover;">
+				<div class=" h-[150px] w-[10px] bg-yellow-600 "> </div>
+				<div class=" h-[150px] w-[270px] bg-gray-200 bg-opacity-90 p-5"> 
+					<p><b class="text-[40px]">15%</b> <span class="ml-2 text-[38px]"></span>SOLDE</p>
+					<p class="text-[18px] mt-2 font-medium">SÉJOURS NUITS <br> OU PLUS</p>
+				</div>
+			</div>
+			<div class="h-[350px] w-full  bg-cover bg-center "style="background-image:url(./images/chambre_1.png);">
+				
+			</div>	
+		</div>
+		
+		<!------------------------------------------contenu_n°2_vu_sur_tablette(md:++) -------------------------------->
+		<div class=" hidden md:grid grid lg:hidden  grid-rows  gap-10 h-full w-full bg-gray-100 p-24 mt-[160px] ">
+			<div class="h-[350px] w-full  order-2 bg-cover bg-center " style="background-image:url(./images/chambre_2.png);">
+				
+			</div>
+			<div class=" flex flex-col  order-1 justify-center h-full w-full font-serif ">
+				<div class=" flex w-full justify-center text-[54px] font-serif"> 
+					<h2><b>Nos meilleures chambres</b></h2>
+				</div>
+				<div class=" flex w-full justify-center mt-8 mb-[50px] text-[22px] font-medium"> 
+					<p class="text-center">Habituellement, le plus fort dans la pièce est le plus faible. <br> L’homme le plus silencieux de la pièce.</p>
+				</div>
+				<div class="flex w-full justify-center"> 
+					<div class=" h-[120px] w-[120px] border border-4 border-yellow-600 rounded-full mr-4 p-7 hover:bg-black"><img src="./images/tv.png"  class="w-[70px] h-[50px]"></div>
+					<div class=" h-[120px] w-[120px] border border-4 border-yellow-600 rounded-full mr-4 p-7 hover:bg-black"><img src="./images/split.png"  class="w-[70px] h-[60px]"></div>
+					<div class=" h-[120px] w-[120px] border border-4 border-yellow-600 rounded-full mr-4 p-7 hover:bg-black"><img src="./images/wifi.png"  class="w-[80px] h-[50px]"></div>
+					<div class=" h-[120px] w-[120px] border border-4 border-yellow-600 rounded-full p-7 hover:bg-black"><img src="./images/sport.png"  class="w-[80px] h-[60px]"></div>
+				</div>
+				<div class=" flex flex-col justify-center items-cent px-4  "> 
+					<div class="flex justify-center items-cent font-medium text-[20px] py-4"> 
+						<p class=" ml-4 mr-14"><b>LEDTV</b></p>
+						<p class="mr-16"><b>AC ROOM</b></p>
+						<p class="mr-16"><b>WIFI</b></p>
+						<p class=""><b>FITNESS</b></p>
+					</div>
+					<div class=" flex justify-center p-10">
+						<button class=" hover:bg-black  hover:text-white text-[16px] border border-2 border-current px-7 py-5  border-current text-black ">
+							<span><b>Voir les orffres</b></span>
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="flex flex-row  order-4 justify-star gap-0 t items-end relative h-[350px] w-full  bg-cover bg-green-100 bg-center " style="background-image:url(./images/chambre_3.png);background-size: cover;">
+				<div class=" h-[150px] w-[10px] bg-yellow-600 "> </div>
+				<div class=" h-[150px] w-[270px] bg-gray-200 bg-opacity-90 p-5"> 
+					<p><b class="text-[40px]">15%</b> <span class="ml-2 text-[38px]"></span>SOLDE</p>
+					<p class="text-[18px] mt-2 font-medium">SÉJOURS NUITS <br> OU PLUS</p>
+				</div>
+			</div>
+			<div class="h-[350px] w-full   order-3 bg-cover bg-center "style="background-image:url(./images/chambre_1.png);">
+				
+			</div>	
+		</div>
+		<!------------------------------------------contenu_n°2_vu_sur_mobile-------------------------------->
+		<div class=" md:hidden lg:hidden grid  grid-rows  gap-10 h-full w-full bg-gray-100 p-5 mt-[60px] ">
+			<div class="h-[350px] w-full order-1  bg-cover bg-center " style="background-image:url(./images/chambre_2.png);">
+				
+			</div>
+			<div class=" flex flex-col order-3  justify-center h-full w-full font-serif ">
+				<div class=" flex w-full justify-center text-[38px] font-serif"> 
+					<h2><b>Nos meilleures chambres</b></h2>
+				</div>
+				<div class=" flex w-full justify-center mt-4 mb-[30px] text-[18px] font-medium"> 
+					<p class="text-center">Habituellement, le plus fort dans la pièce<br> est le plus faible. L’homme le plus<br> silencieux de la pièce.</p>
+				</div>
+				<div class="flex w-full justify-center"> 
+					<div class=" h-[80px] w-[80px] border border-4 border-yellow-600 rounded-full mr-4 p-4 hover:bg-black"><img src="./images/tv.png"  class="w-[60px] h-[30px]"></div>
+					<div class=" h-[80px] w-[80px] border border-4 border-yellow-600 rounded-full mr-4 p-4 hover:bg-black"><img src="./images/split.png"  class="w-[60px] h-[40px]"></div>
+					<div class=" h-[80px] w-[80px] border border-4 border-yellow-600 rounded-full mr-4 p-4 hover:bg-black"><img src="./images/wifi.png"  class="w-[60px] h-[40px]"></div>
+					<div class=" h-[80px] w-[80px] border border-4 border-yellow-600 rounded-full p-4 hover:bg-black"><img src="./images/sport.png"  class="w-[60px] h-[40px]"></div>
+				</div>
+				<div class=" flex flex-col justify-center items-cent px-4  "> 
+					<div class="flex justify-center items-cent font-medium text-[18px] py-4"> 
+						<p class="  mr-7"><b>LEDTV</b></p>
+						<p class="mr-7"><b>AC ROOM</b></p>
+						<p class="mr-7"><b>WIFI</b></p>
+						<p class=""><b>FITNESS</b></p>
+					</div>
+					<div class=" flex justify-center ">
+						<button class=" hover:bg-black  hover:text-white text-[14px] border border-4 border-current px-5 py-4  border-current text-black ">
+							<span><b>Voir les orffres</b></span>
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="flex flex-row  order-2 justify-star gap-0 t items-end relative h-[350px] w-full  bg-cover bg-green-100 bg-center " style="background-image:url(./images/chambre_3.png);background-size: cover;">
+				<div class=" h-[150px] w-[10px] bg-yellow-600 "> </div>
+				<div class=" h-[150px] w-[270px] bg-gray-200 bg-opacity-90 p-5"> 
+					<p><b class="text-[40px]">15%</b> <span class="ml-2 text-[38px]"></span>SOLDE</p>
+					<p class="text-[18px] mt-2 font-medium">SÉJOURS NUITS <br> OU PLUS</p>
+				</div>
+			</div>
+			<div class="h-[350px] w-full   order-4 bg-cover bg-center "style="background-image:url(./images/chambre_1.png);">
+				
+			</div>	
+		</div>
+		<!--\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\contenu_n°3///////////////////////////////////-->
+		<!------------------------------------------contenu_n°3_vu_sur_desktop(lg:+++) -------------------------------->
+
+		<div class="hidden md:hidden lg:flex flex flex-col h-full w-full  items-cent p-16"> 
+			<div class=" flex h-full w-full justify-center items-cent "> 
+				<h2  class="font-serif text-[50px]">Nos services</h2>
+			</div>
+			<div class=" flex h-full w-full justify-center items-cent "> 
+				<p class="text-center">Les services du complexe désignent les services <br>qui sont fournis aux clients du complexe <br>de temps à autre,</p>
+			</div>
+			<div class=" grid lg:grid-cols-4 md:grid-cols-2 md:gap-5 h-full md:w-[600px] lg:w-full mt-12 "> 
+				<div class=" flex flex-col items-center h-[160px] w-[290px] bg-black p-4 text-[24px] text-yellow-700 hover:bg-transparent hover:text-orange-300  border border-2 border-black">
+					<img src="./images/restaurant.png" class="w-[100px] h-[80px]">
+					<p class="text-[24px] "><b>Restaurant</b></p>
+				</div>
+				<div class=" flex flex-col items-center h-[160px] w-[290px] p-4 text-[24px] bg-white hover:bg-black hover:text-white  border border-2 border-black">
+					<img src="./images/salle_de_détente.png" class="w-[100px] h-[80px]">
+					<p class="text-[24px] "><b>Salle de détente</b></p>
+				</div>
+				<div class=" flex flex-col items-center h-[160px] w-[290px] p-4 text-[24px] bg-white hover:bg-black hover:text-white  border border-2 border-black">
+					<img src="./images/salle_de_conférence.png" class="w-[100px] h-[80px]">
+					<p class="text-[24px] "><b>Salle de conférence</b></p>
+				</div>
+				<div class=" flex flex-col items-center h-[160px] w-[290px] p-4 text-[24px] bg-white hover:bg-black hover:text-white  border border-2 border-black">
+					<img src="./images/piscine.png" class="w-[100px] h-[80px]">
+					<p class="text-[24px] "><b>Piscine</b></p>
+				</div>
+			</div>
+			<div class="flex justify-between h-full w-full mt-[40px]">
+				<div class="h-[500px] w-[660px] bg-blue-200 bg-cover bg-center " style="background-image:url(./images/restauration.png);">
+				
+				</div>
+				<div class="h-[500px] w-[530px] ">
+					<div class=" mb-3">
+						<h2  class=" text-[40px]"><b>Restaurant</b></h2>
+					</div>
+					<div class="pb-5 ">
+						<p class="">Nous sommes respectueux envers nos clients. Nous offrons un <br>service à la clientèle rapide, courtois et effice</p>
+					</div>
+					<div class=" flex mb-[110px]">
+						<ul class=" mr-10 font-medium">
+    							<li class="flex items-center"><span class="mr-2 text-yellow-600 text-5xl">&#8226;</span> Lorem ipsum text...</li>
+    							<li class="flex items-center"><span class="mr-2 text-yellow-600 text-5xl">&#8226;</span> Lorem ipsum text...</li>
+    							<li class="flex items-center"><span class="mr-2 text-yellow-600 text-5xl">&#8226;</span> Lorem ipsum text...</li>
+    							<li class="flex items-center"><span class="mr-2 text-yellow-600 text-5xl">&#8226;</span> Lorem ipsum text...</li>
+  						</ul>
+  						<ul class="font-medium">
+    							<li class="flex items-center"><span class="mr-2 text-yellow-600 text-5xl">&#8226;</span> Lorem ipsum text...</li>
+    							<li class="flex items-center"><span class="mr-2 text-yellow-600 text-5xl">&#8226;</span> Lorem ipsum text...</li>
+    							<li class="flex items-center"><span class="mr-2 text-yellow-600 text-5xl">&#8226;</span> Lorem ipsum text...</li>
+    							<li class="flex items-center"><span class="mr-2 text-yellow-600 text-5xl">&#8226;</span> Lorem ipsum text...</li>
+  						</ul>
+					</div>
+					<button class=" hover:bg-black  hover:text-white text-[14px] border border-4 border-current px-5 py-4  border-current text-black ">
+						<span><b>Voir les orffres</b></span>
+					</button>
+				</div>	
+			</div>
+
+		</div>
+		
+		<!------------------------------------------contenu_n°3_vu_sur_tablette(md:++)-------------------------------->
+
+		<div class="hidden lg:hidden md:flex flex flex-col h-full w-full  items-cent p-16"> 
+			<div class=" flex h-full w-full justify-center items-cent "> 
+				<h2  class="font-serif text-[54px]"><b>Nos services</b></h2>
+			</div>
+			<div class=" h-full w-full font-serif"> 
+				<p class="text-center text-[22px] ">Les services du complexe désignent les services <br>qui sont fournis aux clients du complexe <br>de temps à autre,</p>
+			</div>
+			<div class=" grid grid-cols-2 gap-12 h-full w-full  mt-12 "> 
+				<div class=" flex flex-col items-center h-[200px] w-[370px] bg-black p-10 text-[24px] text-yellow-700 hover:bg-transparent hover:text-orange-300  border border-2 border-black">
+					<img src="./images/restaurant.png" class="w-[100px] h-[80px] hover:bg-black">
+					<p class="text-[24px] "><b>Restaurant</b></p>
+				</div>
+				<div class=" flex flex-col items-center h-[200px] w-[370px] p-10 text-[24px] bg-white hover:bg-black hover:text-yellow-700  border border-2 border-black">
+					<img src="./images/salle_de_détente.png" class="w-[100px] h-[80px] hover:bg-yellow-700 ">
+					<p class="text-[24px] "><b>Salle de détente</b></p>
+				</div>
+				<div class=" flex flex-col items-center h-[200px] w-[370px] p-10 text-[24px] bg-white hover:bg-black hover:text-yellow-700   border border-2 border-black">
+					<img src="./images/salle_de_conférence.png" class="w-[100px] h-[80px] hover:bg-yellow-700">
+					<p class="text-[24px] "><b>Salle de conférence</b></p>
+				</div>
+				<div class=" flex flex-col items-center h-[200px] w-[370px] p-10 text-[24px] bg-white hover:bg-black hover:text-yellow-700   border border-2 border-black">
+					<img src="./images/piscine.png" class="w-[100px] h-[80px] hover:bg-yellow-700">
+					<p class="text-[24px] "><b>Piscine</b></p>
+				</div>
+			</div>
+			<div class="flex flex-col justify-between h-full w-full mt-[120px]">
+				<div class="h-[500px] w-full bg-blue-200 bg-cover bg-center " style="background-image:url(./images/restauration.png);">
+				
+				</div>
+				<div class="h-full w-full mt-16">
+					<div class=" flex justify-center h-full w-full mb-3">
+						<h2  class=" font-serif text-[54px]"><b>Restaurant</b></h2>
+					</div>
+					<div class="flex justify-center pb-12 ">
+						<p class="text-center text-[22px]">Nous sommes respectueux envers nos clients. Nous offrons un <br>service à la clientèle rapide, courtois et effice</p>
+					</div>
+					<div class=" flex justify-center mb-[50px] text-[22px]">
+						<ul class=" mr-[170px] font-medium">
+    							<li class="flex items-center"><span class="mr-2 text-yellow-600 text-6xl">&#8226;</span> Lorem ipsum text...</li>
+    							<li class="flex items-center"><span class="mr-2 text-yellow-600 text-6xl">&#8226;</span> Lorem ipsum text...</li>
+    							<li class="flex items-center"><span class="mr-2 text-yellow-600 text-6xl">&#8226;</span> Lorem ipsum text...</li>
+    							<li class="flex items-center"><span class="mr-2 text-yellow-600 text-6xl">&#8226;</span> Lorem ipsum text...</li>
+  						</ul>
+  						<ul class="font-medium">
+    							<li class="flex items-center"><span class="mr-2 text-yellow-600 text-6xl">&#8226;</span> Lorem ipsum text...</li>
+    							<li class="flex items-center"><span class="mr-2 text-yellow-600 text-6xl">&#8226;</span> Lorem ipsum text...</li>
+    							<li class="flex items-center"><span class="mr-2 text-yellow-600 text-6xl">&#8226;</span> Lorem ipsum text...</li>
+    							<li class="flex items-center"><span class="mr-2 text-yellow-600 text-6xl">&#8226;</span> Lorem ipsum text...</li>
+  						</ul>
+					</div>
+					<div class=" flex justify-center">
+						<button class=" hover:bg-black  hover:text-white text-[22px border border-4 border-current px-5 py-4  border-current text-black ">
+							<span><b>Voir les orffres</b></span>
+						</button>
+					</div>
+				</div>	
+			</div>
+
+		</div>
+		
+		<!------------------------------------------contenu_n°3_vu_sur_mobile-------------------------------->
+
+		<div class="md:hidden lg:hidden flex flex-col h-full w-full  items-cent p-5"> 
+			<div class=" flex h-full w-full justify-center items-cent "> 
+				<h2  class="font-serif text-[38px]"><b>Nos services</b></h2>
+			</div>
+			<div class=" h-full w-full font-serif"> 
+				<p class="text-center text-[18px] leading-[40px]">Les services du complexe désignent les services <br>qui sont fournis aux clients du complexe <br>de temps à autre,</p>
+			</div>
+			<div class=" grid grid-cols-2 gap-5 justify-center h-full w-full px-[115px] mt-12 "> 
+				<div class=" flex flex-col items-center h-[80px] w-[180px] bg-black p-4 text-[24px] text-yellow-700 hover:bg-transparent hover:text-orange-300  border border-2 border-black">
+					<img src="./images/restaurant.png" class="w-[50px] h-[40px] hover:bg-black">
+					<p class="text-[12px] "><b>Restaurant</b></p>
+				</div>
+				<div class=" flex flex-col items-center h-[80px] w-[180px] p-4 text-[12px] bg-white hover:bg-black hover:text-yellow-700  border border-2 border-black">
+					<img src="./images/salle_de_détente.png" class="w-[50px] h-[40px] hover:bg-yellow-700 ">
+					<p class=" "><b>Salle de détente</b></p>
+				</div>
+				<div class=" flex flex-col items-center h-[80px] w-[180px] p-4 text-[12px] bg-white hover:bg-black hover:text-yellow-700   border border-2 border-black">
+					<img src="./images/salle_de_conférence.png" class="w-[50px] h-[40px] hover:bg-yellow-700">
+					<p class=""><b>Salle de conférence</b></p>
+				</div>
+				<div class=" flex flex-col items-center h-[80px] w-[180px] p-4 text-[12px] bg-white hover:bg-black hover:text-yellow-700   border border-2 border-black">
+					<img src="./images/piscine.png" class="w-[50px] h-[40px] hover:bg-yellow-700">
+					<p class=" "><b>Piscine</b></p>
+				</div>
+			</div>
+			<div class="flex flex-col justify-between h-full w-full mt-[80px]">
+				<div class="h-[500px] w-full bg-blue-200 bg-cover bg-center " style="background-image:url(./images/restauration.png);">
+				
+				</div>
+				<div class="h-full w-full mt-16">
+					<div class=" flex justify-center h-full w-full mb-3">
+						<h2  class=" font-serif text-[38px]"><b>Restaurant</b></h2>
+					</div>
+					<div class="flex justify-center pb-8 ">
+						<p class="text-center text-[18px]">Nous sommes respectueux envers nos clients. Nous offrons un <br>service à la clientèle rapide, courtois et effice</p>
+					</div>
+					<div class=" flex justify-center mb-[20px] text-[18px]">
+						<ul class=" mr-[250px] font-medium">
+    							<li class="flex items-center"><span class="mr-2 text-yellow-600 text-5xl">&#8226;</span> Lorem ipsum text...</li>
+    							<li class="flex items-center"><span class="mr-2 text-yellow-600 text-5xl">&#8226;</span> Lorem ipsum text...</li>
+    							<li class="flex items-center"><span class="mr-2 text-yellow-600 text-5xl">&#8226;</span> Lorem ipsum text...</li>
+    							<li class="flex items-center"><span class="mr-2 text-yellow-600 text-5xl">&#8226;</span> Lorem ipsum text...</li>
+  						</ul>
+  						<ul class="font-medium">
+    							<li class="flex items-center"><span class="mr-2 text-yellow-600 text-5xl">&#8226;</span> Lorem ipsum text...</li>
+    							<li class="flex items-center"><span class="mr-2 text-yellow-600 text-5xl">&#8226;</span> Lorem ipsum text...</li>
+    							<li class="flex items-center"><span class="mr-2 text-yellow-600 text-5xl">&#8226;</span> Lorem ipsum text...</li>
+    							<li class="flex items-center"><span class="mr-2 text-yellow-600 text-5xl">&#8226;</span> Lorem ipsum text...</li>
+  						</ul>
+					</div>
+					<div class=" flex justify-center">
+						<button class=" hover:bg-black  hover:text-white text-[16px] border border-4 border-current px-5 py-4  border-current text-black ">
+							<span><b>Voir les orffres</b></span>
+						</button>
+					</div>
+				</div>	
+			</div>
+
+		</div>
+
+		<!--\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\contenu_n°4///////////////////////////////////-->
+		<!------------------------------------------contenu_n°4_vu_sur_desktop(lg:+++) -------------------------------->
+		<div class="hidden md:hidden lg:flex flex flex-col h-full w-full p-16 ">
+			<div class=" flex h-full w-full  justify-center p-2">
+				<h2  class="font-serif text-[50px]"><b>Découvrez notre galerie d’hôtels</b></h2>	
+			</div>
+			<div class=" flex  h-full w-full  justify-center ">
+				<div class=" flex justify-center h-[55px] w-[157px] hover:text-white hover:bg-black border border-2 border-black mr-2 items-center">
+					<p class="text-[20px] ">Classique</p>	
+				</div>
+				<div class="flex justify-center items-center h-[55px] w-[157px] hover:text-white hover:bg-black border border-2 border-black mr-2 ">
+					<p class="text-[20px] ">Classique jum..</p>
+				</div>	
+				<div class=" flex justify-center items-center h-[55px] w-[157px] hover:text-black hover:bg-white bg-black text-white border border-2 border-black mr-2 p-2">
+					<p class="text-[20px] ">Universel</p>
+				</div>	
+				<div class="flex justify-center items-center h-[55px] w-[157px] hover:text-white hover:bg-black border border-2 border-black mr-2 p-2">
+					<p class="text-[20px] font-medium ">Superieur</p>
+				</div>
+				<div class="flex justify-center items-center h-[55px] w-[157px] hover:text-white hover:bg-black border border-2 border-black p-2">
+					<p class="text-[20px] font-medium ">Suite</p>
+				</div>		
+			</div>
+			<div class=" grid grid-cols-3 h-full w-full  gap-5 mt-16">
+				<div class=" h-[500px] w-[390px] bg-cover bg-center " style="background-image:url(./images/cc.png);">
+					
+				</div>
+				<div class=" h-[500px] w-[390px] bg-cover bg-center " style="background-image:url(./images/cs.png);">
+					
+				</div>
+				<div class=" h-[500px] w-[390px] bg-cover bg-center " style="background-image:url(./images/ch.png);">
+					
+				</div>
+				<div class=" h-[200px] w-[390px] ">
+					<p class="text-[18px] mb-4">Chambre confortable décorée dons des <br> tans pastel. Equpé de chambres <br> standars. Chaqque chambre est <br> climatisée.</p>
+					<button class=" hover:bg-black  hover:text-white text-[14px] border border-2 border-black px-4 py-3  text-black ">
+						<span><b>Voir les orffres</b></span>
+					</button>
+				</div>
+				<div class=" h-[200px] w-[390px] ">
+					<p class="text-[18px] mb-4">Les chambres supérieures ont une belle <br> vue sur les collines. Les chambres <br> supérieures sont plus grandes que les <br> chambres standard.</p>
+					<button class=" hover:bg-black  hover:text-white text-[14px] border border-2 border-black px-4 py-3  text-black ">
+						<span><b>Voir les orffres</b></span>
+					</button>
+				</div>
+				<div class=" h-[200px] w-[390px] ">
+					<p class="text-[18px] mb-4">Une suite d’hôtel un ensemble de mobilier, <br> notamment uun ensemble comprenant le  <br> mobilier de base nécessaire <br> pour une chambre une suite parentale.</p>
+					<button class=" hover:bg-black  hover:text-white text-[14px] border border-2 border-black px-4 py-3  text-black ">
+						<span><b>Voir les orffres</b></span>
+					</button>
+				</div>				
+			</div>	
+		</div>
+
+		<!------------------------------------------contenu_n°4_vu_sur_tablette(md:++)-------------------------------->
+		<div class="hidden lg:hidden md:flex flex flex-col h-full w-full p-16">
+			<div class=" flex h-full w-full  justify-center mb-10">
+				<h2  class="font-serif text-[54px] text-center"><b>Découvrez notre galerie d’hôtels</b></h2>	
+			</div>
+			<div class=" flex  h-full w-full  justify-center ">
+				<div class=" flex justify-center h-[55px] w-[157px] hover:text-white hover:bg-black border border-2 border-black mr-2 items-center">
+					<p class="text-[20px] ">Classique</p>	
+				</div>
+				<div class="flex justify-center items-center h-[55px] w-[157px] hover:text-white hover:bg-black border border-2 border-black mr-2 ">
+					<p class="text-[20px] ">Classique jum..</p>
+				</div>	
+				<div class=" flex justify-center items-center h-[55px] w-[157px] hover:text-black hover:bg-white bg-black text-white border border-2 border-black mr-2 p-2">
+					<p class="text-[20px] ">Universel</p>
+				</div>	
+				<div class="flex justify-center items-center h-[55px] w-[157px] hover:text-white hover:bg-black border border-2 border-black mr-2 p-2">
+					<p class="text-[20px] font-medium ">Superieur</p>
+				</div>
+				<div class="flex justify-center items-center h-[55px] w-[157px] hover:text-white hover:bg-black border border-2 border-black p-2">
+					<p class="text-[20px] font-medium ">Suite</p>
+				</div>		
+			</div>
+			<div class=" grid grid-cols-2 h-full w-full  gap-5 mt-16">
+				<div class="order-1 h-[320px] w-1/2 bg-cover bg-center px-[50%]" style="background-image:url(./images/cc.png);">
+					
+				</div>
+				<div class=" order-3 h-[320px] w-1/2 bg-cover bg-center px-[50%] " style="background-image:url(./images/cs.png);">
+					
+				</div>
+				<div class="order-5 h-[320px] w-[50%] bg-cover bg-center px-[50%]" style="background-image:url(./images/ch.png);">
+					
+				</div>
+				<div class="order-2 h-[320px] w-[410px] text-[20px]  ">
+					<p class=" mb-4 leading-[61px]">Chambre confortable décorée dons des <br> tans pastel. Equpé de chambres <br> standars. Chaqque chambre est <br> climatisée.</p>
+					<button class=" text-[16px] hover:bg-black  hover:text-white  border border-2 border-black px-4 py-4  text-black ">
+						<span><b>Voir les orffres</b></span>
+					</button>
+				</div>
+				<div class="order-4 h-[320px]  w-[410px] ">
+					<p class=" leading-[61px] text-[20px]  mb-4">Les chambres supérieures ont une belle <br> vue sur les collines. Les chambres <br> supérieures sont plus grandes que les <br> chambres standard.</p>
+					<button class=" hover:bg-black  hover:text-white text-[16px] border border-2 border-black px-4 py-4  text-black ">
+						<span><b>Voir les orffres</b></span>
+					</button>
+				</div>
+				<div class="order-6 h-[320px]  w-[410px]] ">
+					<p class=" leading-[61px] text-[20px]  mb-4">Une suite d’hôtel un ensemble de mobilier, <br> notamment uun ensemble comprenant le  <br> mobilier de base nécessaire <br> pour une chambre une suite parentale.</p>
+					<button class=" hover:bg-black  hover:text-white text-[16px] border border-2 border-black px-4 py-4  text-black ">
+						<span><b>Voir les orffres</b></span>
+					</button>
+				</div>				
+			</div>	
+		</div>
+	<!------------------------------------------contenu_n°4_vu_sur_mobile-------------------------------->
+		<div class="md:hidden lg:hidden flex flex-col h-full w-full p-5">
+			<div class=" flex h-full w-full  justify-center mb-10">
+				<h2  class="font-serif text-[38px] text-center"><b>Découvrez notre galerie d’hôtels</b></h2>	
+			</div>
+			<div class=" grid grid-cols-2 gap-5 h-full w-full  justify-center px-[120px]">
+				<div class=" flex justify-center h-[80px] w-[180px] hover:text-white hover:bg-black border border-2 border-black mr-2 items-center">
+					<p class="text-[20px] ">Classique</p>	
+				</div>
+				<div class="flex justify-center items-center h-[80px] w-[180px] hover:text-white hover:bg-black border border-2 border-black mr-2 ">
+					<p class="text-[20px] ">Classique jum..</p>
+				</div>	
+				<div class=" flex justify-center items-center h-[80px] w-[180px] hover:text-black hover:bg-white bg-black text-white border border-2 border-black mr-2 p-2">
+					<p class="text-[20px] ">Universel</p>
+				</div>	
+				<div class="flex justify-center items-center h-[80px] w-[180px] hover:text-white hover:bg-black border border-2 border-black mr-2 p-2">
+					<p class="text-[20px] font-medium ">Superieur</p>
+				</div>
+				<div class="flex justify-center items-center h-[80px] w-[180px] hover:text-white hover:bg-black border border-2 border-black p-2">
+					<p class="text-[20px] font-medium ">Suite</p>
+				</div>		
+			</div>
+			<div class=" grid grid-cols-1 h-full w-full  gap-5 mt-16">
+				<div class="order-1 h-[650px] w-full bg-cover bg-center px-[50%]" style="background-image:url(./images/cc.png);">
+					
+				</div>
+				<div class=" order-3 h-[650px] w-full bg-cover bg-center px-[50%] " style="background-image:url(./images/cs.png);">
+					
+				</div>
+				<div class="order-5 h-[650px] w-full bg-cover bg-center px-[50%]" style="background-image:url(./images/ch.png);">
+					
+				</div>
+				<div class="order-2 h-[320px] w-full text-[20px]  ">
+					<p class=" mb-4 leading-[61px]">Chambre confortable décorée dons des <br> tans pastel. Equpé de chambres <br> standars. Chaqque chambre est <br> climatisée.</p>
+					<button class=" text-[16px] hover:bg-black  hover:text-white  border border-2 border-black px-[40%] py-4  text-black ">
+						<span><b>Voir les orffres</b></span>
+					</button>
+				</div>
+				<div class="order-4 h-[320px]  w-full ">
+					<p class=" leading-[61px] text-[20px]  mb-4">Les chambres supérieures ont une belle <br> vue sur les collines. Les chambres <br> supérieures sont plus grandes que les <br> chambres standard.</p>
+					<button class=" hover:bg-black  hover:text-white text-[16px] border border-2 border-black px-[40%] py-4  text-black ">
+						<span><b>Voir les orffres</b></span>
+					</button>
+				</div>
+				<div class="order-6 h-[320px]  w-full ">
+					<p class=" leading-[61px] text-[20px]  mb-4">Une suite d’hôtel un ensemble de mobilier, <br> notamment uun ensemble comprenant le  <br> mobilier de base nécessaire <br> pour une chambre une suite parentale.</p>
+					<button class=" hover:bg-black  hover:text-white text-[16px] border border-2 border-black px-[40%] py-4  text-black ">
+						<span><b>Voir les orffres</b></span>
+					</button>
+				</div>				
+			</div>	
+		</div>
+
+	<!--\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\contenu_n°5///////////////////////////////////-->
+	<!------------------------------------------contenu_n°5_vu_sur_desktop(lg:+++) -------------------------------->
+
+	<div class=" hidden md:hidden lg: lg:flex "><!------------------cette permet de ce block de code resposive. Pour le moment, sans elle nous auront un affichage pas correct------->
+		<div class="  h-full w-full bg-gray-100  p-16" >
+			<div class=" flex justify-between h-full w-full relative">
+				<div>
+					<h2  class="font-serif text-[46px] "><b>Que disent les clients ?</b></h2>	
+			        </div> 
+				<div class=" h-[325px] w-[300px]  bg-blue-700  absolute right-0 z-5 top-[130px] mr-[450px] bg-cover bg-center " style="background-image:url(./images/img_1.png);">
+				
+			        </div>
+				<div class=" h-[200px] w-[200px]  bg-blue-500  absolute right-0 z-5 mt-12 mr-[220px] bg-cover bg-center " style="background-image:url(./images/img_2.png);">
+				
+			        </div > 
+				<div class=" h-[180px] w-[190px]  bg-blue-200 absolute right-0 z-5 bg-cover bg-center " style="background-image:url(./images/img_3.png);">
+				
+			        </div> 
+			</div>
+			 <div class=" flex  justify-between h-full w-full mt-[110px]">
+				<p class=" "> “Le service client est excellent, pêt à répondre à<br> nos demandes? La qualitécest très bonne et c’est<br> très, très important. Ils essaient dde satisfaire toutes<br> les demandes des clients. Excellente<br> communication”.</p>	
+			</div>
+			<div class=" h-full w-full  mt-4">
+				<h2  class=""><b class="text-[20px] ">Alex Smith</b> <br>Photographe</h2>	
+			</div>
+			<div class=" flex justify-end h-full w-[420px]  ">
+				<div class="flex flex-col items-end justify-end h-full w-full">
+					<h2  class="flex  justify-cennter text-4xl ">
+						<span class="text-yellow-600 "><b>&#9733;</b></span>
+						<span class="text-yellow-600 "><b>&#9733;</b></span>
+						<span class="text-yellow-600 "><b>&#9733;</b></span>
+						<span class="text-yellow-600 "><b>&#9733;</b></span>
+						<span class="text-yellow-600 "><b>&#9733;</b></span>
+					</h2>
+					<div class=" flex justify-between h-[100px] w-[145px]  ">
+						<img src="./images/gauche.png" class="w-[70px] h-12">
+						<img src="./images/droite.png" class="w-[70px] h-12">
+					</div>
+				</div>		
+			</div>
+		</div>
+	</div>
+
+		<!------------------------------------------contenu_n°5_vu_sur_tablette(md:++)-------------------------------->
+		<div class="hidden lg:hidden md:flex flex flex-col h-full w-full  bg-gray-100 p-16">
+			<div class="flex justify-center">
+				<h2  class="font-serif text-[54px] "><b>Que disent les clients ?</b></h2>
+			</div>
+			<div class="flex justify-center h-full w-full mt-[120px]">
+				
+				<div class=" order-2 h-[500px] w-[450px]  bg-cover bg-center " style="background-image:url(./images/img_1.png);">
+					
+				</div>
+				<div class=" mt-[120px] order-1 h-[250px] w-[160px]  bg-cover bg-center " style="background-image:url(./images/img_2.png);">
+					
+				</div>	
+				<div class="mt-[120px] order-3 h-[250px] w-[250px]  bg-cover bg-center " style="background-image:url(./images/img_3.png);">
+					
+				</div>	
+			</div>
+			<div class=" flex  justify-between h-full w-full mt-[110px]">
+				<div class=" h-full w-[85%]">
+					<p class=" leading-[40px] text-[20px]"> “Le service client est excellent, pêt à répondre à<br> nos demandes? La qualitécest très bonne et c’est<br> très, très important. Ils essaient dde satisfaire toutes<br> les demandes des clients. Excellente<br> communication”.</p>	
+				</div>
+				<div class="flex flex-col  justify-end h-full w-[15%]">
+					<div class=" flex  h-full w-full ">
+						<h2  class=""><b class="text-[20px] ">Alex Smith</b> <br>Photographe</h2>	
+					</div>	
+					<h2  class="flex  text-3xl mb-2">
+						<span class="text-yellow-600 "><b>&#9733;</b></span>
+						<span class="text-yellow-600 "><b>&#9733;</b></span>
+						<span class="text-yellow-600 "><b>&#9733;</b></span>
+						<span class="text-yellow-600 "><b>&#9733;</b></span>
+						<span class="text-yellow-600 "><b>&#9733;</b></span>
+					</h2>
+					<div class=" flex justify-between h-[100px] w-[130px] ">
+						<img src="./images/gauche.png" class="w-[60px] h-12">
+						<img src="./images/droite.png" class="w-[60px] h-12">
+					</div>
+					
+				</div>		
+			</div>
+		</div>
+		
+		<!------------------------------------------contenu_n°5_vu_sur_mobile-------------------------------->
+		<div class="md:hidden lg:hidden flex flex-col h-full w-full  bg-gray-100 p-16">
+			<div class="flex justify-center order-1">
+				<h2  class="font-serif text-[38px] "><b>Que disent les clients ?</b></h2>
+			</div>
+			<div class="order-3 flex flex-col justify-center h-full w-full ">
+				
+				<div class="  h-[500px] w-full mb-5 bg-cover bg-center " style="background-image:url(./images/img_1.png);">
+					
+				</div>
+				<div class="   h-[500px] w-full mb-5 bg-cover bg-center " style="background-image:url(./images/img_2.png);">
+					
+				</div>	
+				<div class=" h-[500px] w-full  bg-cover bg-center " style="background-image:url(./images/img_3.png);">
+					
+				</div>	
+			</div>
+			<div class=" order-2 flex  flex-col justify-between h-full w-full mt-[10px]">
+				<div class=" h-full w-full">
+					<p class=" leading-[40px] text-[20px] text-center"> “Le service client est excellent, pêt à répondre à<br> nos demandes? La qualitécest très bonne et c’est<br> très, très important. Ils essaient dde satisfaire toutes<br> les demandes des clients. Excellente<br> communication”.</p>	
+				</div>
+				<div class="flex flex-col  justify-center items-center h-full w-full pt-10">
+					<div class=" flex justify-center items-center  h-full w-full mb-5">
+						<h2  class="text-[24px] text-center"><b class=" text-[30px] ">Alex Smith</b> <br>Photographe</h2>	
+					</div>	
+					<h2  class="flex  text-4xl mb-4">
+						<span class="text-yellow-600 "><b>&#9733;</b></span>
+						<span class="text-yellow-600 "><b>&#9733;</b></span>
+						<span class="text-yellow-600 "><b>&#9733;</b></span>
+						<span class="text-yellow-600 "><b>&#9733;</b></span>
+						<span class="text-yellow-600 "><b>&#9733;</b></span>
+					</h2>
+					<div class=" flex justify-between h-[150px] w-[180px] ">
+						<img src="./images/gauche.png" class="w-[80px] h-14">
+						<img src="./images/droite.png" class="w-[80px] h-14">
+					</div>
+					
+				</div>		
+			</div>
+		</div>
+
+		<!--\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\contenu_n°6///////////////////////////////////-->
+		<!------------------------------------------contenu_n°6_vu_sur_desktop(lg:+++) -------------------------------->
+		<div class=" hidden md:hidden lg:flex flex h-full w-full bg-gray-100 py-[100px]">
+			<div class=" h-full w-3/5  bg-black pl-16 pb-16 pt-20 pr-10">
+				<div class=" flex h-full w-full  ">
+					<div class=" rounded-full hover:bg-white border border-[3px] border-white hover:border-black p-2 mr-4">
+						<img src="./images/twiter.png" class=" rounded-full h-[30px] w-[30px] hover:bg-black">
+					</div>
+					<div class=" rounded-full bg-gray-100 hover:bg-white border border-[3px] border-white hover:border-black p-2  mr-4">
+						<img src="./images/insta.png" class=" rounded-full h-[30px] w-[30px] hover:bg-white">
+					</div>
+					<div class=" rounded-full hover:bg-white border border-[3px] border-white hover:border-black p-2">
+						<img src="./images/link.png" class=" rounded-full h-[30px] w-[30px] hover:bg-black">
+					</div>
+				</div>
+				<div class=" text-[19px] h-full w-full mt-10">
+					<ul class="grid grid-cols-3 gap-y-5">
+    						<li ><a href="#" class=" text-white  hover:text-red-600 font-normal "><b>A propos</b></a></li>
+  						<li ><a href="#" class=" text-white  hover:text-red-600 font-normal "><b>Entreprise</b></a></li>
+						<li ><a href="#" class=" text-white  hover:text-red-600 font-normal "><b>Terms & politique</b></a></li>
+						<li ><a href="#" class=" text-white  hover:text-red-600 font-normal ">Contact</a></li>
+						<li ><a href="#" class=" text-white  hover:text-red-600 font-normal ">Partenaires</a></li>
+						<li ><a href="#" class=" text-white  hover:text-red-600 font-normal ">Politique de confidentialité</a></li>
+						<li ><a href="#" class=" text-white  hover:text-red-600 font-normal ">News & Blog</a></li>
+						<li ><a href="#" class=" text-white  hover:text-red-600 font-normal ">Chambres</a></li>
+						<li ><a href="#" class=" text-white  hover:text-red-600 font-normal ">Support</a></li>
+  					</ul>		
+				</div>			
+			</div>
+			<div class=" h-full w-2/5 px-10">
+				<h2  class="font-serif text-[38px] mb-4"><b>S’abonner à<br>Notre bulletin.</b></h2>
+				<p class=" mb-14">Pour rendre votre sejour spécial et encore plus<br>mémorable.</p>
+				<div class=" grid grid-cols-2 gap-5  h-full w-full   ">
+					<div class=" flex justify-center h-[55px] w-[220px] hover:text-white hover:bg-black border border-2 border-black mr-2 items-center">
+						<p class="text-[16pxx] font-medium">Prénom </p>	
+					</div>
+					<div class="flex justify-center items-center h-[55px] w-[220px] hover:text-white hover:bg-black border border-2 border-black  ">
+						<p class="text-[16px] font-medium">Nom</p>
+					</div>	
+					<div class="flex justify-center items-center h-[55px] w-[220px] hover:text-white hover:bg-black border border-2 border-black  p-2">
+						<p class="text-[16px] font-medium ">Email</p>
+					</div>
+					<div class=" flex justify-center items-center h-[55px] w-[220px] hover:text-black hover:bg-white bg-black text-white border border-2 border-black mr-2 p-2">
+						<p class="text-[16px] font-medium">Abonnez-vous maintenant</p>
+					</div>	
+				</div>	
+			</div>				
+		</div>
+		
+		<!------------------------------------------contenu_n°6_vu_sur_tablette(md:++) -------------------------------->
+		<div class="hidden lg:hidden md:flex flex flex-col h-full w-full bg-gray-100 py-[100px]">
+			<div class=" order-2 h-full w-full  bg-black pl-16 pb-16 pt-20 pr-10">
+				<div class=" flex h-full w-full  ">
+					<div class=" rounded-full hover:bg-white border border-[3px] border-white hover:border-black p-2 mr-4">
+						<img src="./images/twiter.png" class=" rounded-full h-[30px] w-[30px] hover:bg-black">
+					</div>
+					<div class=" rounded-full bg-gray-100 hover:bg-white border border-[3px] border-white hover:border-black p-2  mr-4">
+						<img src="./images/insta.png" class=" rounded-full h-[30px] w-[30px] hover:bg-white">
+					</div>
+					<div class=" rounded-full hover:bg-white border border-[3px] border-white hover:border-black p-2">
+						<img src="./images/link.png" class=" rounded-full h-[30px] w-[30px] hover:bg-black">
+					</div>
+				</div>
+				<div class=" text-[19px] h-full w-full mt-10">
+					<ul class="grid grid-cols-3 gap-y-5">
+    						<li ><a href="#" class=" text-white  hover:text-red-600 font-normal "><b>A propos</b></a></li>
+  						<li ><a href="#" class=" text-white  hover:text-red-600 font-normal "><b>Entreprise</b></a></li>
+						<li ><a href="#" class=" text-white  hover:text-red-600 font-normal "><b>Terms & politique</b></a></li>
+						<li ><a href="#" class=" text-white  hover:text-red-600 font-normal ">Contact</a></li>
+						<li ><a href="#" class=" text-white  hover:text-red-600 font-normal ">Partenaires</a></li>
+						<li ><a href="#" class=" text-white  hover:text-red-600 font-normal ">Politique de confidentialité</a></li>
+						<li ><a href="#" class=" text-white  hover:text-red-600 font-normal ">News & Blog</a></li>
+						<li ><a href="#" class=" text-white  hover:text-red-600 font-normal ">Chambres</a></li>
+						<li ><a href="#" class=" text-white  hover:text-red-600 font-normal ">Support</a></li>
+  					</ul>		
+				</div>			
+			</div>
+			<div class="order-1 flex flex-col justify-center h-full w-full p-20">
+				<h2  class="font-serif text-[22px] text-[54px] mb-4 text-center"><b>S’abonner à Notre bulletin.</b></h2>
+				<p class=" mb-14 text-center">Pour rendre votre sejour spécial et encore plus<br>mémorable.</p>
+				<div class=" grid grid-cols-2 gap-5  h-full w-full   ">
+					<div class=" flex justify-center h-[55px] w-[380px] hover:text-white hover:bg-black border border-2 border-black mr-2 items-center">
+						<p class="text-[16pxx] font-medium">Prénom </p>	
+					</div>
+					<div class="flex justify-center items-center h-[55px] w-[380px] hover:text-white hover:bg-black border border-2 border-black  ">
+						<p class="text-[16px] font-medium">Nom</p>
+					</div>	
+					<div class="flex justify-center items-center h-[55px] w-[380px] hover:text-white hover:bg-black border border-2 border-black  p-2">
+						<p class="text-[16px] font-medium ">Email</p>
+					</div>
+					<div class=" flex justify-center items-center h-[55px] w-[380px] hover:text-black hover:bg-white bg-black text-white border border-2 border-black mr-2 p-2">
+						<p class="text-[16px] font-medium">Abonnez-vous maintenant</p>
+					</div>	
+				</div>	
+			</div>				
+		</div>
+		
+		<!------------------------------------------contenu_n°6_vu_sur_mobile -------------------------------->
+		<div class="md:hidden lg:hidden  flex flex-col h-full w-full bg-gray-100 py-[100px]">
+			<div class=" order-2 h-full w-full  bg-black pl-16  pt-20 pr-10 ">
+				<div class=" flex justify-center h-full w-full  ">
+					<div class=" rounded-full hover:bg-white border border-4 border-white hover:border-black p-2 mr-4">
+						<img src="./images/twiter.png" class=" rounded-full h-[50px] w-[50px] hover:bg-black">
+					</div>
+					<div class=" rounded-full bg-gray-100 hover:bg-white border border-4 border-white hover:border-black p-2  mr-4">
+						<img src="./images/insta.png" class=" rounded-full h-[50px] w-[50px] hover:bg-white">
+					</div>
+					<div class=" rounded-full hover:bg-white border border-4 border-white hover:border-black p-2">
+						<img src="./images/link.png" class=" rounded-full h-[50px] w-[50px] hover:bg-black">
+					</div>
+				</div>
+				<div class=" h-full w-full mt-20">
+					<ul class="grid grid-cols-1 gap-10 text-[28px]">
+    						<li class=" order-1"><a href="#" class=" text-white  hover:text-red-600 font-normal "><b>A propos</b></a></li>
+  						<li class=" order-4"><a href="#" class=" text-white  hover:text-red-600 font-normal "><b>Entreprise</b></a></li>
+						<li class=" order-7"><a href="#" class=" text-white  hover:text-red-600 font-normal "><b>Terms & politique</b></a></li>
+						<li class=" order-2"><a href="#" class=" text-white  hover:text-red-600 font-normal ">Contact</a></li>
+						<li class=" order-5"><a href="#" class=" text-white  hover:text-red-600 font-normal ">Partenaires</a></li>
+						<li class=" order-8"><a href="#" class=" text-white  hover:text-red-600 font-normal ">Politique de confidentialité</a></li>
+						<li class=" order-3"><a href="#" class=" text-white  hover:text-red-600 font-normal ">News & Blog</a></li>
+						<li class=" order-6"><a href="#" class=" text-white  hover:text-red-600 font-normal ">Chambres</a></li>
+						<li class=" order-9"><a href="#" class=" text-white  hover:text-red-600 font-normal ">Support</a></li>
+  					</ul>		
+				</div>			
+			</div>
+			<div class="order-1 flex flex-col justify-start h-full w-full p-16">
+				<h2  class="font-serif  text-[38px] mb-4 "><b>S’abonner à Notre<br> bulletin.</b></h2>
+				<p class=" mb-14 text-[28px] text-center">Pour rendre votre sejour spécial et encore plus<br>mémorable.</p>
+				<div class=" grid grid-cols-1 gap-5  h-full w-full   ">
+					<div class=" flex justify-center h-[65px] w-[85%] hover:text-white hover:bg-black border border-4 border-black  items-center">
+						<p class="text-[20px] font-medium">Prénom </p>	
+					</div>
+					<div class="flex justify-center items-center h-[65px] w-[85%] hover:text-white hover:bg-black border border-4 border-black  ">
+						<p class="text-[20px] font-medium">Nom</p>
+					</div>	
+					<div class="flex justify-center items-center h-[65px] w-[85%] hover:text-white hover:bg-black border border-4 border-black  p-2">
+						<p class="text-[20px] font-medium ">Email</p>
+					</div>
+					<div class=" flex justify-center items-center h-[65px] w-[85%] hover:text-black hover:bg-white bg-black text-white border border-4 border-black  p-2">
+						<p class="text-[20px] font-medium">Abonnez-vous maintenant</p>
+					</div>	
+				</div>	
+			</div>				
+		</div>
+	
+		<!--\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\contenu_n°7///////////////////////////////////-->
+		<!------------------------------------------block_blanc-------------------------------->
+
+		<div class="h-full w-full p-[10%] ">
+			
+		</div>
+
+
+
+
+
+
+
+
+
+
+		
+	</body>
+</html>
